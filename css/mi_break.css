@@ -1,0 +1,1210 @@
+
+/* Small devices (mayoria de celulares) */
+@media (min-width: 310px) and (max-width: 385px)  { 
+
+    .homerr {  background-image: url("../img_plan/Plan_Vacacional_small.webp");   margin-top: -30px; }
+     nav.navbar {display: none; }
+
+     .bajemosle {margin-top: 60px;}
+
+     .button_blue {       
+        width: 240px;
+        height: 46px;
+        font-size: 26px;      
+        padding-top: 7px;
+        border-radius: 14px;                    
+      }
+
+    
+.button-p {
+
+    width: 328px;
+    height: 48px;
+    font-size: 28px;   
+    border-bottom: 4px solid #7e0458;  
+    border-radius: 14px;  
+  }
+  
+  .button-p:hover {
+    font-size: 30px; 
+  }
+  
+
+  .first_inscrib_a{  
+
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  
+  
+   .first_inscrib_b{
+  
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+
+
+  .first_inscrib_c{
+  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+  
+  }
+
+
+
+
+  #robotin {
+    display: none;
+  }
+
+
+  .back_magenta {
+    background: linear-gradient(to bottom, #ffffff 44%, #BF0685 44% );
+  }
+
+  .p_horarios {
+    align-items: center; 
+    justify-content: center;
+    margin-left: 9px;
+    margin-top: -40px;
+  }
+  
+  .text_horario {
+    text-align: center;
+  }
+
+
+  .bajamen {margin-left: 8px;}
+  .t_help_a {font-size: 24px; }
+
+  .text_hora {font-size: 20px;}
+
+.listado {font-size: 18px; }
+.listado_b {font-size: 15px; }
+.diass {  font-size: 1.8rem;  }
+.mess {   font-size: 0.8rem;}
+
+.cuadrito_blue {       
+  width: 230px;
+  height: 36px;
+  margin-bottom: 7px;   margin-top: 4px;              
+}
+
+.ubicatext {top:-5px;}
+
+.cuadrito_big_blue {       
+  width: 370px;
+  height: 34px;
+  margin-bottom: 7px;  
+  margin-left: 7px;  
+                
+}
+
+.verdesito {
+  width: 370px;
+  height: 36px;
+ padding-top: 6px;
+ border-radius: 5px;
+  
+}
+
+/* seccion  amarilla con blanco */
+
+
+.back_amarillo {
+  background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
+}
+
+
+.first_t {font-size: 28px;  }
+.separann {margin-bottom: -12px;}
+
+.ubi_duo {margin-top: -1px;}
+
+.second_text {font-size: 26px; margin-left: 12px;  }
+
+.div_moto {margin-top: 18px;}
+.ubi_moto {margin-left: 20px; }
+
+
+.button-amari {   border-radius: 8px;  font-size: 18px;  padding-top: 1px;   width: 140px;   height: 30px; }
+
+
+.posi_bott_ama {top: 110px; right:-1px;}
+
+.duo_textos{justify-content:center; align-items: center; text-align: center;}
+
+
+/* zon bloque verde */
+
+.men_supp {align-items: center;
+  justify-content: center;}
+
+.men_bajj {align-items: center;
+  justify-content: center; }
+
+
+
+
+ /* galeria  */
+
+
+
+ .text_diver {font-size: 28px;} 
+
+.text_aprov {font-size: 20px; margin-left: 20px; margin-top: 5px;}
+
+
+#septima {   display: none; }
+#novena {   display: none; }
+.octava {margin-top:-65px;}
+
+
+
+
+
+/*  seccion contacto */
+
+.bloque_dual { background: linear-gradient(to bottom, #05A451 41%, #41ADCE 41% );
+} 
+
+/* .cuadro_dual {
+  background-image: url("../img_plan/back_dual.webp"); 
+  
+  height: 476px; 
+  width: 100%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}  */
+
+.address {align-items: center; margin-top: 1px; justify-content: center; text-align: center;}
+
+
+.button_amarr {       
+  width: 220px;
+  height: 58px;
+  font-size: 44px;      
+margin-top: 15px;
+  border-radius: 10px;                    
+}
+
+.ccs_font {font-size: 40px;}
+.other_font {font-size: 22px;}
+
+.direc_move {margin-top: 40px; margin-bottom: 20px;}
+.direc_move_b {margin-top: 30px;}
+
+
+#flechincin {display: none;}
+.ins_texttt {font-size: 58px; margin-top: 30px;}
+
+.qr_toppp {margin-top: 50px;}
+
+.qr_img_s {width: 240px; height: 240px;}
+
+
+
+
+
+
+
+     
+ }
+
+
+ /* Small devices (mayoria de celulares) */
+@media (min-width: 386px) and (max-width: 512px)  { 
+
+    .homerr {  background-image: url("../img_plan/Plan_Vacacional_small_b.webp");   margin-top: -30px; }
+     nav.navbar {display: none; }
+
+     .bajemosle {margin-top: 40px;}
+
+
+     .button_blue {       
+        width: 260px;
+        height: 56px;
+       font-size: 40px;      
+       padding-top: 7px;
+       border-radius: 14px;                    
+     }
+
+
+    
+.button-p {
+
+    width: 360px;
+    height: 54px;
+    font-size: 32px;   
+    border-bottom: 4px solid #7e0458;  
+    border-radius: 14px;  
+  }
+  
+  .button-p:hover {
+    font-size: 34px; 
+  }
+
+    
+
+  .first_inscrib_a{
+
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  
+  
+   .first_inscrib_b{
+  
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  #robotin {
+    display: none;
+  }
+
+
+
+
+
+  
+  .text_horario {
+    text-align: center;
+    margin-top: -50px;
+  }
+
+
+
+
+
+
+  .first_inscrib_c{
+  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 29px;
+  
+  }
+
+
+
+
+
+  .bajamen {margin-top: 30px; margin-left: 8px;}
+    
+  .back_magenta {
+    background: linear-gradient(to bottom, #ffffff 46%, #BF0685 46% );
+  }
+ 
+
+  .text_horario {
+    text-align: center;
+    
+  }
+
+  .p_horarios {
+    align-items: center; 
+    justify-content: center;
+    margin-left: 6px;
+    margin-top: 25px;
+  }
+  
+  .text_hora {font-size: 24px;}
+
+.listado {font-size: 19px;}
+.listado_b {font-size: 17px;}
+.diass {  font-size: 2.2rem; }
+.mess {   font-size: 0.8rem;}
+
+.cuadrito_blue {       
+  width: 230px;
+  height: 40px;
+  margin-bottom: 7px;                 
+}
+
+.ubicatext {top:-9px;}
+
+
+.cuadrito_big_blue {       
+  width: 370px;
+  height: 44px;
+  margin-bottom: 7px;  
+  margin-left: 7px;                  
+}
+
+.verdesito {
+  width: 370px;
+  height: 36px;
+ padding-top: 6px;
+ border-radius: 5px;
+  
+}
+
+
+
+
+/* seccion  amarilla con blanco */
+
+
+.back_amarillo {
+  background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
+}
+
+
+.first_t {font-size: 34px;  }
+.separann {margin-bottom: -12px;}
+
+.ubi_duo {margin-top: -1px;}
+
+.second_text {font-size: 30px;  margin-left: 14px; }
+
+.div_moto {margin-top: 18px;}
+.ubi_moto {margin-left: 20px; }
+
+
+.button-amari {   border-radius: 14px;  font-size: 20px;  padding-top: 1px;   width: 160px;   height: 34px; }
+
+
+.posi_bott_ama {top:130px; right:4px;}
+
+
+.duo_textos{justify-content:center; align-items: center; text-align: center;}
+
+
+
+/* zon bloque verde */
+
+.men_supp {align-items: center;
+  justify-content: center;}
+
+.men_bajj {align-items: center;
+  justify-content: center; }
+
+
+
+ /* galeria  */
+
+
+
+ .text_diver {font-size: 32px;} 
+
+.text_aprov {font-size: 24px; margin-left: 20px; margin-top: 5px;}
+
+
+
+#septima {   display: none; }
+#novena {   display: none; }
+.octava {margin-top:-45px;}
+
+
+
+
+
+/*  seccion contacto */
+
+.bloque_dual { background: linear-gradient(to bottom, #05A451 41%, #41ADCE 41% );
+} 
+
+/* .cuadro_dual {
+  background-image: url("../img_plan/back_dual.webp"); 
+  
+  height: 476px; 
+  width: 100%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}  */
+
+.address {align-items: center; margin-top: 1px; justify-content: center; text-align: center;}
+
+
+.button_amarr {       
+  width: 220px;
+  height: 58px;
+  font-size: 44px;      
+margin-top: 15px;
+  border-radius: 10px;                    
+}
+
+.ccs_font {font-size: 42px;}  
+.other_font {font-size: 26px;}  
+
+.direc_move {margin-top: 40px; margin-bottom: 20px;}
+.direc_move_b {margin-top: 30px;}
+
+
+#flechincin {display: none;}
+.ins_texttt {font-size: 58px; margin-top: 30px;}
+
+.qr_toppp {margin-top: 50px;}
+
+.qr_img_s {width: 300px; height: 300px;}
+
+
+
+
+ }
+
+
+
+
+/* Medium devices (tablets)  */
+@media (min-width: 513px) and (max-width: 1000px)  {
+
+    .homerr {  background-image: url("../img_plan/Plan_Vacacional_tablet.webp"); margin-top: -30px; }
+    nav.navbar {display: none; }
+    
+    .bajemosle {margin-top: 60px;}
+
+    .button_blue {       
+        width: 360px;
+        height: 66px;
+       font-size: 38px;      
+       padding-top: 7px;
+       border-radius: 14px;                    
+     }
+   
+.button-p {
+
+    width: 468px;
+    height: 68px;
+    font-size: 36px;  
+   border-bottom: 4px solid #7e0458;  
+   border-radius: 14px;  
+ }
+ 
+ .button-p:hover {
+   font-size: 38px; 
+ }
+
+
+
+ .bajamen {margin-top: 30px;}
+
+
+    
+.back_magenta {
+  background: linear-gradient(to bottom, #ffffff 50%, #BF0685 50% );
+}
+
+
+.p_horarios {
+  align-items: center; 
+  justify-content: center;
+}
+
+.text_horario {
+  text-align: center;
+}
+
+
+
+.first_inscrib_a{  
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+ .first_inscrib_b{
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+.first_inscrib_c{
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+#robotin {
+  display: none;
+}
+
+
+
+
+
+
+.verdesito {
+
+  width: 370px;
+  height: 36px;
+
+ padding-top: 6px;
+ border-radius: 5px;
+  
+}
+
+
+.listado {font-size: 32px;}
+.listado_b {font-size: 26px;}
+.diass {  font-size: 2.2rem; }
+.mess {   font-size: 0.8rem;}
+
+
+.cuadrito_blue {       
+  width: 230px;
+  height: 40px;
+  margin-bottom: 7px;
+                  
+}
+
+.ubicatext {top:-10px;}
+
+
+.cuadrito_big_blue {       
+  width: 370px;
+  height: 44px;
+  margin-bottom: 7px;
+                  
+}
+
+
+
+/* seccion  amarilla con blanco */
+
+
+.back_amarillo {
+  background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
+}
+
+
+
+
+
+
+.first_t {font-size: 38px;  }
+.separann {margin-bottom: -12px;}
+
+.ubi_duo {margin-top: -1px;}
+
+.second_text {font-size: 40px;  }
+
+.div_moto {margin-top: 18px;}
+.ubi_moto {margin-left: 20px; }
+
+
+.button-amari {   border-radius: 14px;  font-size: 28px;  padding-top: 1px;   width: 220px;   height: 44px; }
+
+
+.posi_bott_ama {top:150px; right:8px;}
+
+
+.duo_textos{justify-content:center; align-items: center; text-align: center;}
+
+
+
+
+/* zon bloque verde */
+
+.men_supp {align-items: center;
+  justify-content: center;}
+
+.men_bajj {align-items: center;
+  justify-content: center; }
+
+
+
+ /* galeria  */
+
+
+
+ .text_diver {font-size: 40px;} 
+
+.text_aprov {font-size: 36px; margin-left: 20px;}
+
+
+#septima {   display: none; }
+#novena {   display: none; }
+.octava {margin-top:-45px; width:400px; height: auto;}
+
+
+
+
+
+/*  seccion contacto */
+
+ .bloque_dual { background: linear-gradient(to bottom, #05A451 44%, #41ADCE 44% );
+} 
+
+/* .cuadro_dual {
+  background-image: url("../img_plan/back_dual.webp"); 
+  
+  height: 476px; 
+  width: 100%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}  */
+
+.address {align-items: center; margin-top: 1px; justify-content: center; text-align: center;}
+
+
+.button_amarr {       
+  width: 320px;
+  height: 78px;
+  font-size: 88px;      
+margin-top: 15px;
+  border-radius: 10px;                    
+}
+
+.ccs_font {font-size: 68px;}
+.other_font {font-size: 38px;}
+
+.direc_move {margin-top: 60px; margin-bottom: 90px;}
+.direc_move_b {margin-top: 30px;}
+
+
+#flechincin {display: none;}
+.ins_texttt {font-size: 78px; margin-top: 50px;}
+
+.qr_toppp {margin-top: 50px;}
+
+.qr_img_s {width: 400px; height: auto;}
+
+ }
+
+
+
+
+/* Large tablets   */
+@media (min-width: 1001px) and (max-width: 1221px)  {
+
+    .homerr {  background-image: url("../img_plan/Plan_Vacacional_lar_tablet.webp"); margin-top: -30px; }
+    nav.navbar {display: none; }
+    
+    .bajemosle {margin-top: 80px;}
+
+    .button_blue {       
+        width: 360px;
+        height: 66px;
+       font-size: 38px;      
+       padding-top: 7px;
+       border-radius: 14px;                    
+     }
+   
+.button-p {
+
+    width: 468px;
+    height: 68px;
+    font-size: 36px;  
+   border-bottom: 4px solid #7e0458;  
+   border-radius: 14px;  
+ }
+ 
+ .button-p:hover {
+   font-size: 38px; 
+ }
+
+
+ .first_inscrib_a{
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+ .first_inscrib_b{
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+
+
+.cuadro_bi_a {
+  background-image: url("../img_plan/back_cuadros_sup.webp"); /* The image used */  
+  
+  height: 100%; /* You must set a specified height */
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+.t_help_a {font-size: 30px;}
+
+.text_hora {font-size: 26px;}
+
+.p_horarios {
+  align-items: center; 
+  justify-content: center;
+}
+
+.text_horario {
+  text-align: center;
+}
+
+
+.first_inscrib_a{
+
+  align-items: right;
+  justify-content: right;
+
+}
+
+
+
+ .first_inscrib_b{
+
+  align-items: left;
+  justify-content: left;
+
+}
+
+
+
+.first_inscrib_c{
+
+  align-items: left;
+  justify-content: left;
+
+}
+
+
+.verdesito {
+
+  width: 370px;
+  height: 36px;
+
+ padding-top: 6px;
+ border-radius: 5px;
+  
+}
+
+
+.listado {font-size: 24px;}
+.listado_b {font-size: 20px;}
+
+
+.cuadrito_blue {       
+  width: 230px;
+  height: 48px;
+  margin-bottom: 7px;
+                  
+}
+
+.ubicatext {top:-6px;}
+
+
+.cuadrito_big_blue {       
+  width: 370px;
+  height: 48px;
+  margin-bottom: 7px;
+                  
+}
+
+.ul_margen {
+  margin-left:-30px;
+}
+
+
+.diass {  font-size: 2.2rem; }
+.mess {   font-size: 0.8rem;}
+
+
+
+
+
+
+
+/* seccion  amarilla con blanco */
+
+
+.cuadro_bi_b {
+  background-image: url("../img_plan/back_cuadros_bajo.webp"); /* The image used */  
+  
+  height: 100%; /* You must set a specified height */
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+
+
+
+.first_t {font-size: 38px;  }
+.separann {margin-bottom: -12px;}
+
+.ubi_duo {margin-top: 10px;}
+
+.second_text {font-size: 40px;  }
+
+.div_moto {margin-top: 18px;}
+.ubi_moto {margin-left: 20px; }
+
+
+.button-amari {   border-radius: 14px;  font-size: 28px;  padding-top: 1px;   width: 220px;   height: 44px; }
+
+
+.posi_bott_ama {top:150px; right:-10px;}
+
+.duo_textos{justify-content:left; align-items: left;}
+
+
+
+/* zon bloque verde */
+
+.men_supp {align-items: right;
+  justify-content: right;}
+
+.men_bajj {align-items: left;
+  justify-content: left; }
+
+
+ /* galeria  */
+
+
+
+ .text_diver {font-size: 60px;} 
+
+ .text_aprov {font-size: 42px; margin-left: 20px;}
+
+
+
+ #septima {   display: none; }
+#novena {   display: none; }
+.octava {margin-top:-65px; width:500px; height: auto;}
+
+
+
+
+/*  seccion contacto */
+
+/* .bloque_dual {} */
+
+.cuadro_dual {
+  background-image: url("../img_plan/back_dual.webp"); /* The image used */
+  
+  height: 476px; /* You must set a specified height */
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.address {align-items: left; margin-top: -14px; justify-content: left;}
+
+
+.button_amarr {       
+  width: 250px;
+  height: 58px;
+  font-size: 62px;      
+margin-top: 15px;
+  border-radius: 10px;                    
+}
+
+
+
+.direc_move {margin-top: 50px;}
+.direc_move_b {margin-top: 50px;}
+
+
+
+.qr_toppp {margin-top: -40px;}
+
+.qr_img_s {width: 400px; height: auto;}
+
+
+
+
+}
+
+
+
+
+
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 1222px) { 
+
+    .homerr {  background-image: url("../img_plan/Plan_Vacacional_PC.webp"); }
+    
+
+    .bajemosle {margin-top: 10px;}
+
+    .button_blue {       
+        width: 260px;
+        height: 56px;
+       font-size: 30px;      
+       padding-top: 7px;
+       border-radius: 14px;                    
+     }
+   
+.button-p {
+
+    width: 428px;
+    height: 58px;
+    font-size: 32px;  
+   border-bottom: 4px solid #7e0458;  
+   border-radius: 14px;  
+ }
+ 
+ .button-p:hover {
+   font-size: 30px; 
+ }
+
+
+
+ .first_inscrib_a{
+
+  align-items: right;
+  justify-content: right;
+
+}
+
+
+
+ .first_inscrib_b{
+
+  align-items: left;
+  justify-content: left;
+
+}
+
+
+
+.first_inscrib_c{
+
+  align-items: left;
+  justify-content: left;
+
+}
+
+
+
+
+
+
+
+ .listado {font-size: 32px;}
+ .listado_b {font-size: 28px;}
+
+
+
+
+ .cuadrito_blue {       
+  width: 230px;
+  height: 50px;
+  margin-bottom: 14px;
+                  
+}
+
+.ubicatext {top:-8px;}
+
+.cuadrito_big_blue {       
+  width: 470px;
+  height: 50px;
+  margin-bottom: 14px;
+                  
+}
+
+
+
+.diass {  font-size: 2.5rem; }
+
+.mess {   font-size: 1rem;}
+
+
+
+
+
+
+
+
+
+
+
+.cuadro_bi_a {
+  background-image: url("../img_plan/back_cuadros_sup.webp"); /* The image used */  
+  
+  height: 100%; /* You must set a specified height */
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+
+.cuadro_bi_b {
+  background-image: url("../img_plan/back_cuadros_bajo.webp"); /* The image used */  
+  
+  height: 100%; /* You must set a specified height */
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+
+
+
+
+
+
+
+.p_horarios {
+  align-items: left; 
+  justify-content: left;
+}
+
+.text_horario {
+  text-align: left;
+}
+
+
+
+.verdesito {
+
+  
+  width: 370px;
+  height: 36px;
+
+ padding-top: 1px;
+ border-radius: 5px;
+
+  
+}
+
+.ul_margen {
+  margin-left:-30px;
+}
+
+
+
+
+/* seccion  amarilla con blanco */
+
+
+.first_t {font-size: 54px;  }
+.separann {margin-bottom: -12px;}
+
+.ubi_duo {margin-top: -40px;}
+
+.second_text {font-size: 46px;  }
+
+.div_moto {margin-top: 18px;}
+.ubi_moto {margin-left: 20px; }
+
+
+.button-amari {   border-radius: 14px;  font-size: 28px;  padding-top: 1px;   width: 220px;   height: 44px; }
+
+.posi_bott_ama {top:200px; right:30px;}
+
+.duo_textos{justify-content:left; align-items: left;}
+
+
+
+/* zon bloque verde */
+
+.men_supp {align-items: right;
+  justify-content: right;}
+
+.men_bajj {align-items: left;
+  justify-content: left; }
+
+
+
+
+
+
+
+ /* galeria  */
+
+
+
+ .text_diver {font-size: 60px;} 
+
+
+
+
+.cuarta{margin-top:-60px;}
+.sexta{margin-top:-45px;}
+
+.septima {margin-top:-100px; margin-left:-25px; width:420px; }
+/* #septima {} */
+
+.octava {margin-top:-45px; width:400px; height: 400px;}
+
+.novena {margin-top:-180px; margin-left:80px; width:540px; height: 500px; }
+/* #novena {} */
+
+
+/*  seccion contacto */
+
+/* .bloque_dual {} */
+
+.cuadro_dual {
+  background-image: url("../img_plan/back_dual.webp"); /* The image used */
+  
+  height: 476px; /* You must set a specified height */
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.address {align-items: left; margin-top: -14px; justify-content: left;}
+
+
+.button_amarr {       
+  width: 250px;
+  height: 58px;
+  font-size: 62px;      
+margin-top: 15px;
+  border-radius: 10px;                    
+}
+
+
+.direc_move {margin-top: 50px;}
+.direc_move_b {margin-top: 50px;}
+
+.qr_toppp {margin-top: -40px;}
+
+.qr_img_s {width: 400; height: 400;}
+
+
+ }
+
+
+
+
+
+
+
+
+/* X-Large devices (large desktops, 1200px and up)  
+@media (min-width: 1200px) { }
+@media (min-width: 1400px) { }  */
+
