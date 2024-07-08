@@ -251,6 +251,32 @@ color: #25D366;
       }
 
 
+      .btn-sociale_ff {
+        width: 34px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: #BF0685;
+        border: 1px solid #BF0685;
+        border-radius: 5px;
+        }
+      
+        .color_icooo {
+          color: white;
+        }
+        .color_icooo:hover {
+          color: white;
+        }
+      
+        .btn-sociale_ff:hover {    
+          background-color: #41ADCE;
+          border: 1px solid #41ADCE;
+
+            }
+
+
       .nav-link:hover { color: #41ADCE; }
 
 
