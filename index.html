@@ -31,10 +31,10 @@
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 as="style" onload="this.onload=null;this.rel='stylesheet'"> 
 
-<!-- Bootstrap   -->  
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- Bootstrap  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->  
 
-<!--  <link href="bootstrap/bootstrap.min.css" rel="stylesheet">  -->
+<!-- --> <link href="bootstrap/bootstrap.min.css" rel="stylesheet">  
 
 
 <!-- Mi Estilo -->
@@ -99,9 +99,9 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 
          
 
-         <li class="nav-item pt-1 mx-5">
+       <!--   <li class="nav-item pt-1 mx-5">
          <a class="nav-link " href="#direccion" ><b>DIRECCIÓN</b></a>
-         </li>         
+         </li>    -->     
 
 
          <li class="nav-item me-1">
@@ -144,12 +144,12 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 
  <div class="cover-container px-4 py-2 my-2 text-center d-flex align-items-center justify-content-center">
   
-   
-   <div class="col-lg-8  mx-auto ">
+   <div class="hero_text">
+   <div class="col-lg-8   mx-auto ">
 
   <div class="mt-4  d-flex align-items-center justify-content-center">
-    <div class="button_blue bajemosle  d-flex align-items-center justify-content-center">
-      <h1 class="text-white display-6 raleway-bb">Vacaciones</h1>
+    <div class=" bajemosle  d-flex align-items-center justify-content-center"> <!-- button_blue-->
+      <h1 class="text_magenta display-5 vaca_text raleway-bb">Vacaciones</h1>
     </div>
   </div>
 
@@ -158,14 +158,14 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
     width="147" height="250.8" >
   </div>
    
-   <h2 class="text_azul mt-3 display-6 raleway-bb">¡Plan Vacacional!</h2>
+   <h2 class="text_azul mt-3 display-6 plan_text raleway-bb">¡Plan Vacacional!</h2>
 
 
 
 <div class="d-flex align-items-center justify-content-center" style="margin-top: -22px;">
    <img src="img_plan/punto_b.webp" class="img-fluid me-4" alt="Lerobótica Circulo" width="28" height="56" >
 
-  <span class="text_azul_claro display-1 raleway-eb">2024</span>
+  <span class="text_azul_claro display-1 fecha_texttt raleway-eb">2024</span>
   <img src="img_plan/punto_b.webp" class="ms-4 img-fluid" alt="Lerobótica Circulo" width="28" height="56" >
 
 </div>
@@ -173,7 +173,7 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 
 <div class="mt-2" style="display: flex; align-items: center; justify-content: center;">
-  <a href="#contacto" style="text-decoration: none;">
+  <a href="#contacto" id="wiii" style="text-decoration: none;">
     <div class="button-p" style="display: flex; align-items: center; justify-content: center; ">
       ¡INSCRÍBETE AHORA!
     </div>
@@ -188,8 +188,8 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 
 
-   </div>
-
+   </div>  <!-- cierre col 8-->
+  </div>
 
 
 
@@ -209,12 +209,12 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 <div class="container pt-4 pb-4"  >
 
 
-<div class="row align-items-center text-center mx-1 ">
+<div class="row align-items-center text-center mx-1 el_verdeee">
 
 
 <div class="first_inscrib_a col-lg-7 col-md-6 col-sm-12 " style=" display:flex;">
 
-      <h3 class="text-white raleway-b mt-1">Elige la fecha y el horario de tu preferencia</h3>
+      <h3 class="text-white raleway-b mt-1 select_tu">Elige la fecha y el horario de tu preferencia</h3>
    
 </div>
 
@@ -223,7 +223,7 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 <div class="first_inscrib_b col-lg-5 col-md-6 col-sm-12" style="  display:flex;">
 
 <a href="#contacto" style="text-decoration: none;" >
-<div  class="button-m raleway-eb" role="button">Inscríbete ya</div></a>
+<div  class="button-m raleway-eb" role="button">Reserva ya</div></a>
    
 </div>
 
@@ -252,25 +252,20 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 
 
-      <div class="mt-4 col-lg-6 col-md-12 col-sm-12" >
+      <div class="mt-4 col-lg-6 col-md-12 col-sm-12 ajuste_listado" style="position: relative;  "> <!--background-color: cyan;-->
 
-      <div class="p_horarios row col-12 " style=" display:flex; ">
+      <div class="p_horarios row col-12 " style=" display:flex;">
            
-     <h2 class="text_magenta text_horario "><span class="raleway-m display-4"><b style="font-size: 4.5rem;">2</b> SEMANAS</span></h2>
+     <h2 class="text_magenta text_horario "><span class="raleway-m display-4 text_sem"><b class="dos_sem" >2</b> SEMANAS</span></h2>
 
-      <div class="verdesito p_horarios mb-3 " style=" margin-top: -14px;  display:flex;"><h2 class="">de diversión sin límites</h2></div>
+      <div class="verdesito p_horarios mb-3 " style=" margin-top: -14px;  display:flex;"><h2 class="diver_text">de diversión sin límites</h2></div>
 
-      <h2 class="first_inscrib_c"><span class=" raleway-mb ">Donde tu hijo:</span></h2>
+      <h2 class="first_inscrib_c  masa_masa"><span class=" raleway-mb ">Donde tu hijo:</span></h2>
 
       </div>
 
 
-          <div class="col-12 row" style=" margin-top: -13px;">
-
-              <div class="col-lg-6 col-md-12 col-sm-12 first_inscrib_c" style="   display:flex;">
-
-
-
+          <div class=" row col-lg-6 col-md-12 col-sm-12 first_inscrib_c" style="display:flex; margin-top: -13px; ">
 
 <ul class="mt-2 lh-sm ul_margen" style=" list-style-type: none;">
 
@@ -279,39 +274,37 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
   <li><span class="listado raleway-eb text_verde">- Construye</span> <span class="listado_b raleway-m">robots impresionantes</span></li>
   <li><span class="listado raleway-eb text_azul_claro">- Vive</span> <span class="listado_b raleway-m">momentos inolvidables</span></li>
 
-</ul>
-              </div>
-
-
-              
-              <div  class=" col-lg-6 col-md-12 col-sm-12" style="   align-items: center; justify-content: center; display:flex;">
-
-
-              <div  class="d-flex align-items-center justify-content-center mt-2"  >
-                <img id="robotin" src="img_plan/lego_grande.webp" class="big_logo img-fluid" alt="Lego Grande" 
-                width="283.2" height="288.4" loading="lazy" >
-              </div>
-
-
-
-              </div>
-
+</ul>            
+             
           </div>
 
 
-      </div>   <!-- cierre col 6 izquierdo -->
+          <div class="robotin_ubicatex" style="position: absolute;">
+
+            <img id="robotin" src="img_plan/lego_grande.webp" class="big_logo_pexx " alt="Lego Grande" 
+                          width="318.6" height="324.45" loading="lazy" >
+          
+          </div>
+
+
+
+
+
+      </div>   <!-- cierre col 12 izquierdo -->
 
 
 
 
 
 
-<div class=" mt-4 col-lg-6 col-md-12 col-sm-12" >
+<div class=" mt-4 col-lg-6 col-md-12 col-sm-12"  >
 
+
+  <div class="fix_interno_dere"  >  <!-- style="background-color: pink;" -->
 
 <div class="col-12 row text-center bajamen" style="align-items: center; justify-content: center; display:flex;">
     
-    <h2 class="text_amarillo "><span class="raleway-bb display-4">Lunes a Viernes</span></h2>
+    <h2 class="text_amarillo "><span class="raleway-bb display-4 text_lun">Lunes a Viernes</span></h2>
     <h2 class="text-white "><span class="raleway-r display-6 t_help_a">Elige la ideal para tu hijo:</h2>
 
   </div>
@@ -388,7 +381,7 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 
 
-
+</div> <!-- cierre del fix interno-->
 
 </div>   <!-- cierre col 6 izquierdo -->
 
@@ -426,13 +419,13 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 <div class="container "   > <!-- style="margin-left: -5px;"  -->
 
-<div class="row col-lg-12 " >
+<div class="row col-lg-12 mov_espexx" >
 
 
  <div class="mt-5  col-lg-6 col-md-12 col-sm-12" style="  align-items: center; justify-content: center; display:flex;">
   
 
- <div class=" col-lg-12 row  " style="max-width:85%;">
+ <div class=" col-lg-12 row  " >
 
           <div class="col-lg-12 row duo_textos " style=" display:flex;">
             
@@ -445,7 +438,7 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
           <div class="col-lg-12 row  " >
             
           <div class="amanecer d-flex align-items-center justify-content-center ubi_duo"  >
-                <img src="img_plan/pareja.webp" class=" img-fluid" alt="Pareja" 
+                <img id="parejox" src="img_plan/pareja.webp" class=" img-fluid" alt="Pareja" 
                 width="480" height="467.4"  loading="lazy">
           </div>
 
@@ -521,24 +514,24 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 
 <section class="mb-5" style="background-color:#05A451;">
-<div class="container pt-4 pb-4"  >
+<div class="container pt-4 pb-4 "  >
 
 
-<div class="row align-items-center text-center mx-1 ">
+<div class="row align-items-center text-center mx-1 el_verdeee">
 
 
 <div class="men_supp col-lg-7 col-md-12 col-sm-12 " style="  display:flex;">
 
-      <h3 class="text-white raleway-b mt-1">¡Que tu hijo viva unas vacaciones fantásticas!</h3>
+      <h3 class="text-white text_fanta raleway-b mt-1">¡Que tu hijo viva unas vacaciones fantásticas!</h3>
    
-</div>
+</div> 
 
 
        
-<div class="men_bajj col-lg-5 col-md-12 col-sm-12" style="  display:flex;">
+<div   class="men_bajj   col-lg-5 col-md-12 col-sm-12" style="  display:flex;">
 
-<a href="#contacto" style="text-decoration: none;" >
-<div  class="button-verde raleway-eb" role="button">Inscríbete ya</div></a>
+<a href="#contacto"   style="text-decoration: none;" >
+<div  class="button-verde raleway-eb"  role="button">Inscríbete ya</div></a>
    
 </div>
 
@@ -590,18 +583,18 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 
        
 <section class="gallery">
-  <img src="galeria/002.webp" alt="galeria 1" loading="lazy" width="420" height="300">
-  <img src="galeria/003.webp" alt="galeria 2" loading="lazy" width="420" height="340">
-  <img src="galeria/004.webp" alt="galeria 3" loading="lazy" width="420" height="300">
-  <img class="cuarta"  alt="galeria 4" src="galeria/005.webp" loading="lazy" width="420" height="360">
-  <img src="galeria/006.webp" alt="galeria 5" loading="lazy" width="420" height="340">
-	<img class="sexta"  alt="galeria 6" src="galeria/001.webp" loading="lazy" width="420" height="300" >
+  <img class="uno" src="galeria/002.webp" alt="galeria 1" loading="lazy" >
+  <img src="galeria/003.webp" alt="galeria 2" loading="lazy" >       <!-- vertical-->
+  <img class="tres" src="galeria/004.webp" alt="galeria 3" loading="lazy" >
+  <img class="cuarta"  alt="galeria 4" src="galeria/005.webp" loading="lazy" >  <!-- vertical-->
+  <img class="cinco"" src="galeria/006.webp" alt="galeria 5" loading="lazy" >
+	<img class="sexta"  alt="galeria 6" src="galeria/001.webp" loading="lazy"  >
 </section>
 
-<section id="" class="gallery_b" >
-  <img id="septima" class="septima"  src="galeria/010.webp" alt="Robot chico" loading="lazy" width="420" height="420">
-  <img class="octava"  src="galeria/esperamos.webp" loading="lazy" alt="Te Esperamos" width="400" height="400">
-  <img id="novena" class="novena"  src="galeria/012.webp" loading="lazy" alt="Personajes Lego" width="540" height="500">  
+<section id="" class="gallery_b" style="margin-top: 26px;" >
+  <img id="septima" class="septima"  src="galeria/010.webp" alt="Robot chico" loading="lazy" width="420px" height="420px">
+  <img class="octava"  src="galeria/esperamos.webp" loading="lazy" alt="Te Esperamos" width="420px" height="420px">
+  <img id="novena" class="novena"  src="galeria/012.webp" loading="lazy" alt="Personajes Lego" width="440px" height="440px">  
 </section>
 
 
@@ -609,7 +602,7 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));  
   grid-gap: 2em;
   padding: 2em;
   pointer-events: none;
@@ -679,7 +672,7 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 
 
-<section  class="cuadro_dual bloque_dual" style="margin-top: -90px;" >
+<section  class="cuadro_dual bloque_dual" style="margin-top: -130px;" >
 
 
 
@@ -743,7 +736,8 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 
 
-      <div class="direc_move_b col-lg-6 col-md-12 col-sm-12" style="align-items: center; justify-content: center; display:flex;" >
+      <div class="direc_move_b col-lg-6 col-md-12 col-sm-12" 
+      style="align-items: center; justify-content: center; display:flex; " > <!-- background-color: antiquewhite; -->
 
 <div class="row col-lg-12" style="align-items: center; justify-content: center; display:flex;">
 
@@ -866,7 +860,7 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 <li class="nav-item"><a href="#fechas" class="nav-link px-2 text-body-secondary"><span class="text_f" >FECHAS</span></a></li>
 <li class="nav-item"><a href="#galeria" class="nav-link px-2 text-body-secondary"><span class="text_f">GALERÍA</span></a></li>
 <li class="nav-item"><a href="#contacto" class="nav-link px-2 text-body-secondary"><span class="text_f">INSCRÍBETE</span></a></li>
-<li class="nav-item"><a href="#direccion" class="nav-link px-2 text-body-secondary"><span class="text_f">DIRECCIÓN</span></a></li>
+
 
       
     </ul>
@@ -913,13 +907,327 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
     <a href="https://wa.me/584122030567" aria-label="Contactanos por whatsapp" class="btn btn-lg back_whatsupp white_text"> 
         <span style="margin-left: -3px;"><i class="fa-brands fa-whatsapp fa-lg"></i>    </a>
 
+         
 
+          <!-- cara lego -->
+
+
+
+
+
+
+          <style>
+
+
+/* cara lego */
+
+.leguito_man {
+position: relative;
+position: fixed;
+}
+
+
+.lego_maaan {
+
+position: fixed;
+left: -15px;
+bottom: 0px;
+z-index: 15;
+
+}
+
+/* cierre cara lego */
+
+
+
+.bocon_maaan {
+  z-index: 34;
+  display: flex;
+              justify-content: center;
+              gap: 1px;
+              margin-top: 100px;
+              position: absolute;
+              bottom: 80px;
+              left: 54px;
+            }
+
+            .eyes-container {
+             
+              display: flex;
+              justify-content: center;
+              gap: 1px;
+              margin-top: 100px;
+              position: absolute;
+              bottom: 100px;
+              left: 46px;
+             
+              z-index: 20;
+            }
+
+            .eye {
+    width: 17px;
+    height: 17px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: relative;
+   /* border: 1px solid #000; */
+  }
+  .pupil {
+    width: 7px;
+    height: 9px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+
+
+        
+           
+          </style>
+
+
+
+        <div id="mr_lego" class="leguito_man"   >
+
+
+          <div class="bocon_maaan">
+
+            <img id="boca_r" src="img_plan/m_r.webp" class="" alt="BocasLego_r"  loading="lazy" width="26.62px;" height="16.225px;" >  
+            <!-- 48.4   29.5 -->
+
+            <img id="boca_h" src="img_plan/m_h.webp" class="" alt="BocasLego_h"  loading="lazy" width="26.62px;" height="16.225px;" hidden >  
+            <!-- 48.4   29.5 -->
+
+            <img id="boca_o" src="img_plan/m_o.webp" class="" alt="BocasLego_o"  loading="lazy" width="26.62px;" height="16.225px;" hidden > 
+          
+
+<script>
+document.querySelectorAll('.button_amarr').forEach(button => {
+  button.addEventListener('mouseover', () => {
+    document.getElementById('boca_h').hidden = false; // Hace visible la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = true; // Oculta la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+
+  button.addEventListener('mouseout', () => {
+    document.getElementById('boca_h').hidden = true; // Oculta la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = false; // Hace visible la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+});
+
+
+
+document.querySelectorAll('#wiii').forEach(button => {
+  button.addEventListener('mouseover', () => {
+    document.getElementById('boca_h').hidden = false; // Hace visible la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = true; // Oculta la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+
+  button.addEventListener('mouseout', () => {
+    document.getElementById('boca_h').hidden = true; // Oculta la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = false; // Hace visible la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+});   
+
+
+
+document.querySelectorAll('.fix_interno_dere').forEach(button => {
+  button.addEventListener('mouseover', () => {
+    document.getElementById('boca_h').hidden = true; // Hace visible la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = true; // Oculta la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = false; // Oculta la imagen con id 'boca_r'
+  });
+
+  button.addEventListener('mouseout', () => {
+    document.getElementById('boca_h').hidden = true; // Oculta la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = false; // Hace visible la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+}); 
+
+
+
+
+
+
+
+document.querySelectorAll('.gallery').forEach(button => {
+  button.addEventListener('mouseover', () => {
+    document.getElementById('boca_h').hidden = true; // Hace visible la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = true; // Oculta la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = false; // Oculta la imagen con id 'boca_r'
+  });
+
+  button.addEventListener('mouseout', () => {
+    document.getElementById('boca_h').hidden = true; // Oculta la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = false; // Hace visible la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+});   
+
+
+
+
+document.querySelectorAll('.big_logo').forEach(button => {
+  button.addEventListener('mouseover', () => {
+    document.getElementById('boca_h').hidden = true; // Hace visible la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = true; // Oculta la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = false; // Oculta la imagen con id 'boca_r'
+  });
+
+  button.addEventListener('mouseout', () => {
+    document.getElementById('boca_h').hidden = true; // Oculta la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = false; // Hace visible la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+}); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.querySelectorAll('.text_amarillo').forEach(button => {
+  button.addEventListener('mouseover', () => {
+    document.getElementById('boca_h').hidden = true; // Hace visible la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = true; // Oculta la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = false; // Oculta la imagen con id 'boca_r'
+  });
+
+  button.addEventListener('mouseout', () => {
+    document.getElementById('boca_h').hidden = true; // Oculta la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = false; // Hace visible la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+});    
+
+
+
+
+document.querySelectorAll('.qr_toppp').forEach(button => {
+  button.addEventListener('mouseover', () => {
+    document.getElementById('boca_h').hidden = false; // Hace visible la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = true; // Oculta la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+
+  button.addEventListener('mouseout', () => {
+    document.getElementById('boca_h').hidden = true; // Oculta la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = false; // Hace visible la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.querySelectorAll('.button-m').forEach(button => {
+  button.addEventListener('mouseover', () => {
+    document.getElementById('boca_h').hidden = false; // Hace visible la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = true; // Oculta la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+
+  button.addEventListener('mouseout', () => {
+    document.getElementById('boca_h').hidden = true; // Oculta la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = false; // Hace visible la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+});
+
+
+
+document.querySelectorAll('.button-verde').forEach(button => {
+  button.addEventListener('mouseover', () => {
+    document.getElementById('boca_h').hidden = false; // Hace visible la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = true; // Oculta la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+
+  button.addEventListener('mouseout', () => {
+    document.getElementById('boca_h').hidden = true; // Oculta la imagen con id 'boca_h'
+    document.getElementById('boca_r').hidden = false; // Hace visible la imagen con id 'boca_r'
+    document.getElementById('boca_o').hidden = true; // Oculta la imagen con id 'boca_r'
+  });
+});
+
+
+</script>
+
+
+            
+          </div>
+
+
+
+          <div class="eyes-container">
+            <div class="eye">
+          
+              <div class="pupil" id="pupil1"></div>
+            
+            </div>
+            <div class="eye">
+             
+              <div class="pupil" id="pupil2"></div>
+            </div>
+          </div>    
+          
+          
+       
+
+          <div class="lego_maaan">         
+          <img src="img_plan/LegoMan.webp" class="" alt="LegoMan"  loading="lazy" width="166.4px;" height="156.4px;"> 
+          </div>  <!-- 416  391-->
+
+
+        </div>
+
+
+        <script>
+          document.addEventListener('mousemove', (event) => {
+            const eyes = document.querySelectorAll('.eye');
+            eyes.forEach(eye => {
+              const {left, top, width, height} = eye.getBoundingClientRect();
+              const eyeCenterX = left + width / 2;
+              const eyeCenterY = top + height / 2;
+              const deltaX = event.clientX - eyeCenterX;
+              const deltaY = event.clientY - eyeCenterY;
+              const angle = Math.atan2(deltaY, deltaX);
+              const distance = Math.min(eye.offsetWidth / 4, Math.hypot(deltaX, deltaY));
+              const pupil = eye.querySelector('.pupil');
+              pupil.style.transform = `translate(${distance * Math.cos(angle)}px, ${distance * Math.sin(angle)}px)`;
+            });
+          });
+        </script>
 
 
     
 
-<!-- JavaScript Libraries 
-<script src="js/jquery-3.4.1.min.js"></script>-->
+<!-- JavaScript Libraries  
+<script src="js/jquery-3.4.1.min.js"></script> -->
 
 <!-- JavaScript Libraries 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>  -->
@@ -930,10 +1238,10 @@ as="style" onload="this.onload=null;this.rel='stylesheet'">
 <!-- Template Javascript 
 <script src="js/main.js"></script>  -->
 
-<!-- bootstrap   -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+<!-- bootstrap  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  -->
 
-<!--  <script src="bootstrap/bootstrap.bundle.min.js"></script>  -->
+<!-- --> <script src="bootstrap/bootstrap.bundle.min.js"></script>  
 
 <!-- <script src="00_sweetalerts/sweetalert2.all.min.js"></script> -->
 

@@ -157,6 +157,37 @@ color: #25D366;
 /* cierre del boton whatsupp */
 
 
+/* cara lego */
+
+.leguito_man {
+
+  position: fixed;
+  left:  0px;
+  bottom: 0px;
+  z-index: 15;
+  
+}
+
+
+
+/* cierre cara lego */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .navbar {    
@@ -225,9 +256,7 @@ color: #25D366;
   border-bottom: 4px solid transparent;
 }
 
-.button-p:hover {
-  font-size: 36px; 
-}
+
 
 
 
@@ -316,7 +345,17 @@ color: #25D366;
         color: #FFD200;          
         text-align: center;      
         text-decoration: none; 
-       
+        cursor: pointer;   
+      transition: all 0.5s ease;           
+      }
+
+
+      .button_amarr:hover
+       {
+        background-color: #005DB9;
+        color: white;
+        text-align: center;
+        text-decoration: none;
         
       }
 
@@ -468,10 +507,13 @@ color: #25D366;
 
 
 /* Small devices (mayoria de celulares) */
-@media (min-width: 310px) and (max-width: 385px)  { 
+@media (min-width: 310px) and (max-width: 401px)  { 
 
   .homerr {  background-image: url("../img_plan/Plan_Vacacional_small.webp");   margin-top: -30px; }
    nav.navbar {display: none; }
+
+   .big_logo {width: 131.712px; height: 224.7168px;}
+
 
    .bajemosle {margin-top: 60px;}
 
@@ -534,7 +576,7 @@ color: #25D366;
 
 
 .back_magenta {
-  background: linear-gradient(to bottom, #ffffff 44%, #BF0685 44% );
+  background: linear-gradient(to bottom, #ffffff 41%, #BF0685 41% );
 }
 
 .p_horarios {
@@ -546,6 +588,7 @@ color: #25D366;
 
 .text_horario {
   text-align: center;
+  margin-bottom: 15px;
 }
 
 
@@ -576,7 +619,7 @@ margin-left: 7px;
 }
 
 .verdesito {
-width: 370px;
+width: 340px;
 height: 36px;
 padding-top: 6px;
 border-radius: 5px;
@@ -589,12 +632,12 @@ border-radius: 5px;
 .back_amarillo {
 background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
 }
+#parejox {content: url('../img_plan/pareja_resp.webp'); }  
 
+.first_t {font-size: 32px;  }
+.separann {margin-bottom: -8px;}
 
-.first_t {font-size: 28px;  }
-.separann {margin-bottom: -12px;}
-
-.ubi_duo {margin-top: -1px;}
+.ubi_duo {margin-top: -1px; margin-left: 9px;}
 
 .second_text {font-size: 26px; margin-left: 12px;  }
 
@@ -607,7 +650,7 @@ background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
 
 .posi_bott_ama {top: 110px; right:-1px;}
 
-.duo_textos{justify-content:center; align-items: center; text-align: center;}
+.duo_textos{justify-content:center; align-items: center; text-align: center; margin-left: 1px;}
 
 
 /* zon bloque verde */
@@ -632,7 +675,7 @@ justify-content: center; }
 
 #septima {   display: none; }
 #novena {   display: none; }
-.octava {margin-top:-65px;}
+.octava {margin-top:-100px;}
 
 
 
@@ -679,9 +722,9 @@ border-radius: 10px;
 .qr_img_s {width: 240px; height: 240px;}
 
 
+#mr_lego {display: none;}
 
-
-
+.dos_sem {font-size: 40px;}
 
 
    
@@ -689,7 +732,7 @@ border-radius: 10px;
 
 
 /* Small devices (mayoria de celulares) */
-@media (min-width: 386px) and (max-width: 512px)  { 
+@media (min-width: 402px) and (max-width: 540px)  { 
 
   .homerr {  background-image: url("../img_plan/Plan_Vacacional_small_b.webp");   margin-top: -30px; }
    nav.navbar {display: none; }
@@ -750,6 +793,7 @@ border-radius: 10px;
 .text_horario {
   text-align: center;
   margin-top: -50px;
+  margin-bottom: 15px;
 }
 
 
@@ -773,7 +817,7 @@ border-radius: 10px;
 .bajamen {margin-top: 30px; margin-left: 8px;}
   
 .back_magenta {
-  background: linear-gradient(to bottom, #ffffff 46%, #BF0685 46% );
+  background: linear-gradient(to bottom, #ffffff 42%, #BF0685 42% );
 }
 
 
@@ -813,7 +857,7 @@ margin-left: 7px;
 }
 
 .verdesito {
-width: 370px;
+width: 330px;
 height: 36px;
 padding-top: 6px;
 border-radius: 5px;
@@ -831,10 +875,11 @@ background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
 }
 
 
-.first_t {font-size: 34px;  }
+.first_t {font-size: 38px;  }
+
 .separann {margin-bottom: -12px;}
 
-.ubi_duo {margin-top: -1px;}
+.ubi_duo {margin-top: -40px; margin-left: 8px;}
 
 .second_text {font-size: 30px;  margin-left: 14px; }
 
@@ -848,8 +893,8 @@ background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
 .posi_bott_ama {top:130px; right:4px;}
 
 
-.duo_textos{justify-content:center; align-items: center; text-align: center;}
-
+.duo_textos{justify-content:center; align-items: center; text-align: center; margin-left: 1px;}
+#parejox {content: url('../img_plan/pareja_resp.webp'); }  
 
 
 /* zon bloque verde */
@@ -874,7 +919,7 @@ justify-content: center; }
 
 #septima {   display: none; }
 #novena {   display: none; }
-.octava {margin-top:-45px;}
+.octava {margin-top:-100px;}
 
 
 
@@ -920,20 +965,37 @@ border-radius: 10px;
 
 .qr_img_s {width: 300px; height: 300px;}
 
+#mr_lego {display: none;}
 
 
+.dos_sem {font-size: 40px;}
 
 }
 
 
 
 
+
+
+
+
 /* Medium devices (tablets)  */
-@media (min-width: 513px) and (max-width: 1000px)  {
+@media (min-width: 541px) and (max-width: 773px)  {
 
   .homerr {  background-image: url("../img_plan/Plan_Vacacional_tablet.webp"); margin-top: -30px; }
   nav.navbar {display: none; }
   
+
+
+/* hero */
+.vaca_text {font-size: 42px;  }
+.big_logo {width: 94.08px; height: 160.512px;}
+.plan_text {font-size: 30px;  }
+.fecha_texttt {font-size: 46px;  }
+.hero_text{margin-top: -20px;}
+
+
+
   .bajemosle {margin-top: 60px;}
 
   .button_blue {       
@@ -946,15 +1008,15 @@ border-radius: 10px;
  
 .button-p {
 
-  width: 468px;
-  height: 68px;
-  font-size: 36px;  
+  width: 368px;
+  height: 48px;
+  font-size: 30px;  
  border-bottom: 4px solid #7e0458;  
  border-radius: 14px;  
 }
 
 .button-p:hover {
- font-size: 38px; 
+ font-size: 32px; 
 }
 
 
@@ -1003,6 +1065,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 
+
 }
 
 
@@ -1042,6 +1105,15 @@ margin-bottom: 7px;
 .ubicatext {top:-10px;}
 
 
+
+
+.ajuste_listado {margin-left: 0px; max-width: 100%;} 
+
+
+
+
+
+
 .cuadrito_big_blue {       
 width: 370px;
 height: 44px;
@@ -1059,11 +1131,11 @@ background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
 }
 
 
+#parejox {content: url('../img_plan/pareja_resp.webp'); }  
 
 
 
-
-.first_t {font-size: 38px;  }
+.first_t {font-size: 34px;  }
 .separann {margin-bottom: -12px;}
 
 .ubi_duo {margin-top: -1px;}
@@ -1077,10 +1149,11 @@ background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
 .button-amari {   border-radius: 14px;  font-size: 28px;  padding-top: 1px;   width: 220px;   height: 44px; }
 
 
-.posi_bott_ama {top:150px; right:8px;}
+.posi_bott_ama {top:180px; right:80px;}
 
 
-.duo_textos{justify-content:center; align-items: center; text-align: center;}
+.duo_textos{justify-content:center; align-items: center; text-align: center; margin-top: -10px;}
+.amanecer {margin-top: -40px;}
 
 
 
@@ -1152,16 +1225,348 @@ border-radius: 10px;
 
 .qr_img_s {width: 400px; height: auto;}
 
+
+#mr_lego {display: none;}
+.dos_sem {font-size: 60px;}
+.first_t {font-size: 46px;  }
+
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (tablets)  */
+@media (min-width: 773px) and (max-width: 991px)  {
+
+  .homerr {  background-image: url("../img_plan/Plan_Vacacional_tablet.webp"); margin-top: -30px; }
+  nav.navbar {display: none; }
+  
+
+
+/* hero */
+.vaca_text {font-size: 42px;  }
+.big_logo {width: 94.08px; height: 160.512px;}
+.plan_text {font-size: 30px;  }
+.fecha_texttt {font-size: 46px;  }
+.hero_text{margin-top: -20px;}
+
+
+
+  .bajemosle {margin-top: 60px;}
+
+  .button_blue {       
+      width: 360px;
+      height: 66px;
+     font-size: 38px;      
+     padding-top: 7px;
+     border-radius: 14px;                    
+   }
+ 
+.button-p {
+
+  width: 368px;
+  height: 48px;
+  font-size: 30px;  
+ border-bottom: 4px solid #7e0458;  
+ border-radius: 14px;  
+}
+
+.button-p:hover {
+ font-size: 32px; 
+}
+
+
+
+.bajamen {margin-top: 30px;}
+
+
+  
+.back_magenta {
+background: linear-gradient(to bottom, #ffffff 50%, #BF0685 50% );
+}
+
+
+.p_horarios {
+align-items: center; 
+justify-content: center;
+}
+
+.text_horario {
+text-align: center;
+}
+
+
+
+.first_inscrib_a{  
+
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+.first_inscrib_b{
+
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+.first_inscrib_c{
+
+align-items: center;
+justify-content: center;
+text-align: center;
+
+
+}
+
+
+#robotin {
+display: none;
+}
+
+
+
+
+
+
+.verdesito {
+
+width: 370px;
+height: 36px;
+
+padding-top: 6px;
+border-radius: 5px;
+
+}
+
+
+.listado {font-size: 32px;}
+.listado_b {font-size: 26px;}
+.diass {  font-size: 2.2rem; }
+.mess {   font-size: 0.8rem;}
+
+
+.cuadrito_blue {       
+width: 230px;
+height: 40px;
+margin-bottom: 7px;
+                
+}
+
+.ubicatext {top:-10px;}
+
+
+
+
+.ajuste_listado {margin-left: 0px; max-width: 100%;} 
+
+
+
+
+
+
+.cuadrito_big_blue {       
+width: 370px;
+height: 44px;
+margin-bottom: 7px;
+                
+}
+
+
+
+/* seccion  amarilla con blanco */
+
+
+.back_amarillo {
+background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
+}
+
+
+#parejox {content: url('../img_plan/pareja_resp.webp'); }  
+
+
+
+.first_t {font-size: 38px;  }
+.separann {margin-bottom: -12px;}
+
+.ubi_duo {margin-top: -1px;}
+
+.second_text {font-size: 40px;  }
+
+.div_moto {margin-top: 18px;}
+.ubi_moto {margin-left: 20px; }
+
+
+.button-amari {   border-radius: 14px;  font-size: 28px;  padding-top: 1px;   width: 220px;   height: 44px; }
+
+
+.posi_bott_ama {top:180px; right:80px;}
+
+
+.duo_textos{justify-content:center; align-items: center; text-align: center;}
+
+
+
+
+/* zon bloque verde */
+
+.men_supp {align-items: center;
+justify-content: center;}
+
+.men_bajj {align-items: center;
+justify-content: center; }
+
+
+
+/* galeria  */
+
+
+
+.text_diver {font-size: 40px;} 
+
+.text_aprov {font-size: 36px; margin-left: 20px;}
+
+
+
+#septima {   display: none; }
+
+.uno {margin-top:30px; }
+.tres  {margin-top:10px; }
+.cinco {margin-top:-40px; }
+
+
+.octava {margin-top:-120px; width:420px; height: 420px;}
+
+.novena {margin-top:-90px; margin-left:0px; width:440px; height: 440px;  }
+/* #novena {} */
+
+
+
+
+
+/*  seccion contacto */
+
+.bloque_dual { background: linear-gradient(to bottom, #05A451 44%, #41ADCE 44% );
+} 
+
+/* .cuadro_dual {
+background-image: url("../img_plan/back_dual.webp"); 
+
+height: 476px; 
+width: 100%;
+background-position: center; 
+background-repeat: no-repeat; 
+background-size: cover;
+}  */
+
+.address {align-items: center; margin-top: 1px; justify-content: center; text-align: center;}
+
+
+.button_amarr {       
+width: 320px;
+height: 78px;
+font-size: 88px;      
+margin-top: 15px;
+border-radius: 10px;                    
+}
+
+.ccs_font {font-size: 68px;}
+.other_font {font-size: 38px;}
+
+.direc_move {margin-top: 60px; margin-bottom: 90px;}
+.direc_move_b {margin-top: 30px;}
+
+
+#flechincin {display: none;}
+.ins_texttt {font-size: 78px; margin-top: 50px;}
+
+.qr_toppp {margin-top: 50px;}
+
+.qr_img_s {width: 400px; height: auto;}
+
+
+#mr_lego {display: none;}
+.dos_sem {font-size: 60px;}
+.first_t {font-size: 46px;  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Large tablets   */
-@media (min-width: 1001px) and (max-width: 1221px)  {
+@media (min-width: 991px) and (max-width: 1200px)  { 
+
 
   .homerr {  background-image: url("../img_plan/Plan_Vacacional_lar_tablet.webp"); margin-top: -30px; }
   nav.navbar {display: none; }
+
+
+/* hero */
+.vaca_text {font-size: 42px;  }
+.big_logo {width: 94.08px; height: 160.512px;}
+.plan_text {font-size: 30px;  }
+.fecha_texttt {font-size: 46px;  }
+.hero_text{margin-top: -80px;}
+
+
+
+
   
   .bajemosle {margin-top: 80px;}
 
@@ -1175,15 +1580,15 @@ border-radius: 10px;
  
 .button-p {
 
-  width: 468px;
-  height: 68px;
-  font-size: 36px;  
+  width: 380px;
+  height: 46px;
+  font-size: 28px;  
  border-bottom: 4px solid #7e0458;  
  border-radius: 14px;  
 }
 
 .button-p:hover {
- font-size: 38px; 
+ font-size: 32px; 
 }
 
 
@@ -1218,9 +1623,9 @@ background-size: cover; /* Resize the background image to cover the entire conta
 }
 
 
-.t_help_a {font-size: 30px;}
+.t_help_a {font-size: 24px;}
 
-.text_hora {font-size: 26px;}
+.text_hora {font-size: 20px;}
 
 .p_horarios {
 align-items: center; 
@@ -1291,11 +1696,29 @@ margin-bottom: 7px;
 }
 
 .ul_margen {
-margin-left:-30px;
+margin-left:0px;
 }
 
 
-.diass {  font-size: 2.2rem; }
+
+.ajuste_listado {margin-left: 70px; max-width: 42%;} 
+.fix_interno_dere {margin-left: 100px; margin-top: 0px;}
+.dos_sem {font-size: 3.8rem;}
+.text_sem {font-size: 46px;}
+.diver_text {font-size: 30px;}
+.robotin_ubicatex {left: 240px; bottom: 30px;}
+.big_logo_pexx {width: 198.24px; height: 201.88px;}
+.duo_textos{justify-content:left; align-items: left; margin-left: 84px;}
+.div_moto {margin-top: 18px; margin-left: 30px;}
+.second_text {font-size: 46px; margin-left: 20px;  }
+.el_verdeee { padding-left: 120px;}
+.text_lun {font-size: 36px;}
+.masa_masa{margin-top: 20px;}
+
+
+
+
+.diass {  font-size: 2rem; }
 .mess {   font-size: 0.8rem;}
 
 
@@ -1318,7 +1741,7 @@ background-size: cover; /* Resize the background image to cover the entire conta
 }
 
 
-
+#parejox {content: url('../img_plan/pareja_resp.webp'); }  
 
 
 .first_t {font-size: 38px;  }
@@ -1326,9 +1749,9 @@ background-size: cover; /* Resize the background image to cover the entire conta
 
 .ubi_duo {margin-top: 10px;}
 
-.second_text {font-size: 40px;  }
 
-.div_moto {margin-top: 18px;}
+
+
 .ubi_moto {margin-left: 20px; }
 
 
@@ -1337,7 +1760,7 @@ background-size: cover; /* Resize the background image to cover the entire conta
 
 .posi_bott_ama {top:150px; right:-10px;}
 
-.duo_textos{justify-content:left; align-items: left;}
+
 
 
 
@@ -1361,8 +1784,329 @@ justify-content: left; }
 
 
 #septima {   display: none; }
-#novena {   display: none; }
-.octava {margin-top:-65px; width:500px; height: auto;}
+
+.uno {margin-top:30px; }
+.tres  {margin-top:10px; }
+.cinco {margin-top:-40px; }
+
+
+.octava {margin-top:-120px; width:420px; height: 420px;}
+
+.novena {margin-top:-90px; margin-left:0px; width:440px; height: 440px;  }
+/* #novena {} */
+
+
+.ins_texttt {font-size: 38px; margin-top: 30px;}
+
+/*  seccion contacto */
+
+/* .bloque_dual {} */
+
+.cuadro_dual {
+background-image: url("../img_plan/back_dual.webp"); /* The image used */
+
+height: 476px; /* You must set a specified height */
+width: 100%;
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.address {align-items: left; margin-top: -14px; justify-content: left;}
+
+
+.button_amarr {       
+width: 160px;
+height: 58px;
+font-size: 42px;      
+margin-top: 15px;
+border-radius: 10px;                    
+}
+
+
+
+.direc_move {margin-top: 50px;}
+.direc_move_b {margin-top: 50px; margin-left: 0px;}
+
+
+
+.qr_toppp {margin-top: -40px;}
+
+.qr_img_s {width: 400px; height: auto;}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* extra Large tablets   */
+@media (min-width: 1201px) and (max-width: 1442px)  {
+
+
+
+
+  
+  .homerr {  background-image: url("../img_plan/Plan_Vacacional_PC.webp"); }
+  
+
+/* hero */
+  .vaca_text {font-size: 42px;  }
+  .big_logo {width: 117.6px; height: 200.64px;}
+.plan_text {font-size: 40px;  }
+.fecha_texttt {font-size: 66px;  }
+.hero_text {margin-left: -140px; margin-top: -20px;}
+.text_fanta {font-size: 24px;  }
+
+.button-verde {margin-top: -5px;}
+
+
+
+  .bajemosle {margin-top: 10px;}
+
+  .button_blue {       
+      width: 260px;
+      height: 56px;
+     font-size: 30px;      
+     padding-top: 7px;
+     border-radius: 14px;                    
+   }
+ 
+.button-p {
+
+  width: 360px;
+  height: 52px;
+  font-size: 28px;  
+ border-bottom: 4px solid #7e0458;  
+ border-radius: 14px;  
+}
+
+.button-p:hover {
+ font-size: 32px; 
+}
+
+
+
+.first_inscrib_a{
+
+align-items: right;
+justify-content: right;
+
+}
+
+
+
+.first_inscrib_b{
+
+align-items: left;
+justify-content: left;
+
+}
+
+
+
+.first_inscrib_c{
+
+align-items: left;
+justify-content: left;
+
+}
+
+
+
+
+
+
+
+.listado {font-size: 24px;}
+.listado_b {font-size: 22px;}
+
+
+
+
+.cuadrito_blue {       
+width: 230px;
+height: 50px;
+margin-bottom: 14px;
+                
+}
+
+.ubicatext {top:-8px;}
+
+.cuadrito_big_blue {       
+width: 470px;
+height: 50px;
+margin-bottom: 14px;
+                
+}
+
+
+
+.diass {  font-size: 2.5rem; }
+
+.mess {   font-size: 1rem;}
+
+
+
+
+
+
+
+
+
+
+
+.cuadro_bi_a {
+background-image: url("../img_plan/back_cuadros_sup.webp"); /* The image used */  
+
+height: 100%; /* You must set a specified height */
+width: 100%;
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+
+.cuadro_bi_b {
+background-image: url("../img_plan/back_cuadros_bajo.webp"); /* The image used */  
+
+height: 100%; /* You must set a specified height */
+width: 100%;
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+
+
+
+
+
+
+
+.p_horarios {
+align-items: left; 
+justify-content: left;
+}
+
+.text_horario {
+text-align: left;
+}
+
+
+
+.verdesito {
+
+
+width: 350px;
+height: 36px;
+
+padding-top: 1px;
+border-radius: 5px;
+
+
+
+}
+
+.ul_margen {
+margin-left:0px;
+}
+
+.ajuste_listado {margin-left: 50px;  max-width: 40%;} 
+.fix_interno_dere {margin-left: 140px; margin-top: -30px;}
+.dos_sem {font-size: 3.8rem;}
+.text_sem {font-size: 46px;}
+.diver_text {font-size: 30px;}
+.robotin_ubicatex {left: 220px; bottom: 30px;}
+.big_logo_pexx {width: 283.2px; height: 288.4px;}
+.duo_textos{justify-content:left; align-items: left; margin-left: 24px; margin-top: -40px;}
+.div_moto {margin-top: -20px; margin-left: 30px;}
+.second_text {font-size: 46px; margin-left: 20px;  }
+.el_verdeee { padding-left: 50px;}
+.text_lun {font-size: 44px;}
+.t_help_a {font-size: 30px; }
+.text_hora  {font-size: 24px; }
+.select_tu {font-size: 24px;}
+
+
+/* seccion  amarilla con blanco */
+
+
+.first_t {font-size: 54px;  }
+.separann {margin-bottom: -10px;}
+
+.ubi_duo {margin-top: -26px;}
+
+
+
+
+.ubi_moto {margin-left: 20px; }
+
+
+.button-amari {   border-radius: 14px;  font-size: 28px;  padding-top: 1px;   width: 220px;   height: 44px; }
+
+.posi_bott_ama {top:200px; right:30px;}
+
+
+
+
+#parejox {content: url('../img_plan/pareja.webp'); }  
+
+
+
+/* zon bloque verde */
+
+.men_supp {align-items: right;
+justify-content: right;}
+
+.men_bajj {align-items: left;
+justify-content: left; }
+
+
+
+
+
+
+
+/* galeria  */
+
+
+
+.text_diver {font-size: 60px;} 
+
+
+
+
+
+
+.cuarta{margin-top:-60px;}
+.sexta{margin-top:-45px;}
+
+.septima {margin-top:-100px; margin-left:0px; width:420px; height: 420px;}
+/* #septima {} */
+
+.octava {margin-top:-45px; width:420px; height: 420px;}
+
+.novena {margin-top:-120px; margin-left:0px; width:440px; height: 440px;  }
+/* #novena {} */
+
+
+
+/* #novena {} */
 
 
 
@@ -1393,15 +2137,15 @@ border-radius: 10px;
 }
 
 
-
 .direc_move {margin-top: 50px;}
 .direc_move_b {margin-top: 50px;}
 
-
-
 .qr_toppp {margin-top: -40px;}
 
-.qr_img_s {width: 400px; height: auto;}
+.qr_img_s {width: 400; height: 400;}
+
+
+
 
 
 
@@ -1410,10 +2154,12 @@ border-radius: 10px;
 
 
 
+/* Large devices (desktops, 1442px and up)  */
+@media (min-width: 1442px) { 
 
 
-/* Large devices (desktops, 992px and up)  */
-@media (min-width: 1222px) { 
+
+
 
   .homerr {  background-image: url("../img_plan/Plan_Vacacional_PC.webp"); }
   
@@ -1438,7 +2184,7 @@ border-radius: 10px;
 }
 
 .button-p:hover {
- font-size: 30px; 
+ font-size: 36px; 
 }
 
 
@@ -1566,23 +2312,29 @@ border-radius: 5px;
 }
 
 .ul_margen {
-margin-left:-30px;
+margin-left:0px;
 }
 
-
-
+.ajuste_listado {margin-left: 0px;}
+.fix_interno_dere {margin-left: 130px;}
+.dos_sem {font-size: 4.5rem;}
+.el_verdeee { padding-left: 120px;}
 
 /* seccion  amarilla con blanco */
 
 
-.first_t {font-size: 54px;  }
+.first_t {font-size: 62px;  }
 .separann {margin-bottom: -12px;}
 
-.ubi_duo {margin-top: -40px;}
+.ubi_duo {margin-top: -20px; margin-left: -30px;}
 
-.second_text {font-size: 46px;  }
+.second_text {font-size: 52px;  }
 
-.div_moto {margin-top: 18px;}
+
+.robotin_ubicatex {left: 270px; bottom: 30px;}
+
+
+.div_moto {margin-top: 18px; margin-left: 60px;}
 .ubi_moto {margin-left: 20px; }
 
 
@@ -1591,6 +2343,9 @@ margin-left:-30px;
 .posi_bott_ama {top:200px; right:30px;}
 
 .duo_textos{justify-content:left; align-items: left;}
+
+
+#parejox {content: url('../img_plan/pareja.webp'); }  
 
 
 
@@ -1620,12 +2375,12 @@ justify-content: left; }
 .cuarta{margin-top:-60px;}
 .sexta{margin-top:-45px;}
 
-.septima {margin-top:-100px; margin-left:-25px; width:420px; }
+.septima {margin-top:-100px; margin-left:0px; width:420px; height: 420px;}
 /* #septima {} */
 
-.octava {margin-top:-45px; width:400px; height: 400px;}
+.octava {margin-top:-45px; width:420px; height: 420px;}
 
-.novena {margin-top:-180px; margin-left:80px; width:540px; height: 500px; }
+.novena {margin-top:-120px; margin-left:0px; width:440px; height: 440px;  }
 /* #novena {} */
 
 
@@ -1675,3 +2430,31 @@ border-radius: 10px;
 /* X-Large devices (large desktops, 1200px and up)  
 @media (min-width: 1200px) { }
 @media (min-width: 1400px) { }  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
