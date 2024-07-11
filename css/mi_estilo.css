@@ -1716,9 +1716,9 @@ justify-content: center; }
 .cinco {margin-top:-40px; }
 
 
-.octava {margin-top:-120px; width:420px; height: 420px;}
+.octava {margin-top:-120px; width:360px; height: 360px;}
 
-.novena {margin-top:-90px; margin-left:0px; width:440px; height: 440px;  }
+.novena {margin-top:-90px; margin-left:0px; width:360px; height: 360px;  }
 /* #novena {} */
 
 
@@ -2312,8 +2312,7 @@ margin-left:0px;
 
 .button-amari {   border-radius: 14px;  font-size: 28px;  padding-top: 1px;   width: 220px;   height: 44px; }
 
-.posi_bott_ama {top:200px; right:10px;}
-
+.posi_bott_ama {top:200px; right:0px;}
 
 
 
