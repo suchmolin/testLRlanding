@@ -1820,6 +1820,7 @@ border-radius: 10px;
 
 
 
+
   
   .bajemosle {margin-top: 80px;}
 
@@ -2079,6 +2080,11 @@ border-radius: 10px;
 
 
 .direc_move {margin-top: 50px;}
+
+.direc_move_espe {margin-left: 20px;}
+.ccs_font {font-size: 32px;}
+.other_font {font-size: 26px;}
+
 .direc_move_b {margin-top: 50px; margin-left: 0px;}
 
 
@@ -2125,7 +2131,7 @@ border-radius: 10px;
 
 .button-verde {margin-top: -5px;}
 
-
+.ccs_font {font-size: 42px;}
 
   .bajemosle {margin-top: 10px;}
 
@@ -2389,7 +2395,12 @@ border-radius: 10px;
 }
 
 
-.direc_move {margin-top: 50px;}
+.direc_move {margin-top: 50px; }
+
+
+.direc_move_espe {margin-left: 20px;}
+
+
 .direc_move_b {margin-top: 50px;}
 
 .qr_toppp {margin-top: -40px;}
