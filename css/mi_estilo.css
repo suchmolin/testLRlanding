@@ -10,6 +10,7 @@
 
 
 
+
 .raleway-et {
     font-family: "Raleway", sans-serif;
     font-weight: 100;
@@ -483,13 +484,57 @@ color: #25D366;
           }
 
 
+.titulo_header{
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 
+  img{
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    width: 130px;
+    height: auto;
+  }
+}
 
+.texto_header{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 
-
-
-
-
+  h2{
+    margin: 0;
+    font-size: 36px;
+  }
+  h3{
+    font-size: 36px;
+    margin: 0;
+  }
+  h4{
+    font-size: 36px;
+    margin: 0;
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0;
+  }
+  
+}
 
 
 
@@ -509,6 +554,63 @@ color: #25D366;
 
 /* Small devices (mayoria de celulares) */
 @media (min-width: 310px) and (max-width: 401px)  { 
+
+  .cuadro_dual {
+    background-color: #05A451;
+  }    
+
+  .img_direccion{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    img{
+      width: 27% !important;
+    }
+  }
+
+  .texto_direccion{
+    text-align: center;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+    h2{
+      width: 100%;
+    }
+  }
+
+  
+
+  .titulo_header{
+    width: 100%;
+    align-items: start;
+
+    img{
+      top: 40px;
+      left: 41%;
+      width: 80px;
+    }
+  }
+  .texto_header{
+    width: 100%;
+    height: fit-content;
+    margin-top: 190px;
+
+    h2{
+      font-size: 25px;
+    }
+    h3{
+      font-size: 25px;
+    }
+    h4{
+      font-size: 25px;
+    }
+
+    ul{
+      font-size: 18px;
+    }
+  }
+
+
+
 
   .bajar_unpoco{
     margin-top: 80px !important;
@@ -585,7 +687,7 @@ color: #25D366;
 
 
 .back_magenta {
-  background: linear-gradient(to bottom, #ffffff 41%, #BF0685 41% );
+  background-color: #BF0685;
 }
 
 .p_horarios {
@@ -620,7 +722,7 @@ margin-bottom: 7px;   margin-top: 4px;
 .ubicatext {top:-5px;}
 
 .cuadrito_big_blue {       
-width: 370px;
+width: 320px;
 height: 34px;
 margin-bottom: 7px;  
 margin-left: 7px;  
@@ -640,7 +742,7 @@ border-radius: 5px;
 
 
 .back_amarillo {
-background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
+background: linear-gradient(to bottom, #BF0685 50%, #FFD200 50% );
 }
 #parejox {content: url('../img_plan/pareja_resp.webp'); }  
 
@@ -693,8 +795,7 @@ justify-content: center; }
 
 /*  seccion contacto */
 
-.bloque_dual { background: linear-gradient(to bottom, #05A451 41%, #41ADCE 41% );
-} 
+
 
 /* .cuadro_dual {
 background-image: url("../img_plan/back_dual.webp"); 
@@ -743,6 +844,52 @@ border-radius: 10px;
 
 /* Small devices (mayoria de celulares) */
 @media (min-width: 402px) and (max-width: 540px)  { 
+
+  .cuadro_dual {
+    background-color: #05A451;
+  }    
+
+  .img_direccion{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    img{
+      width: 27% !important;
+    }
+  }
+
+  .texto_direccion{
+    text-align: center;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+    h2{
+      width: 100%;
+    }
+  }
+
+  .titulo_header{
+    width: 100%;
+    align-items: start;
+
+    img{
+      top: 80px;
+      left: 41%;
+      width: 110px;
+    }
+  }
+  .texto_header{
+    width: 100%;
+    height: fit-content;
+    margin-top: 290px;
+
+    h3{
+      font-size: 25px;
+    }
+
+    ul{
+      font-size: 22px;
+    }
+  }
 
   .homerr {  background-image: url("../img_plan/Plan_Vacacional_small_b.webp");   margin-top: -30px; }
    nav.navbar {display: none; }
@@ -827,7 +974,7 @@ border-radius: 10px;
 .bajamen {margin-top: 30px; margin-left: 8px;}
   
 .back_magenta {
-  background: linear-gradient(to bottom, #ffffff 42%, #BF0685 42% );
+  background-color: #BF0685;
 }
 
 
@@ -881,7 +1028,7 @@ border-radius: 5px;
 
 
 .back_amarillo {
-background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
+background: linear-gradient(to bottom, #BF0685 45%, #FFD200 45% );
 }
 
 
@@ -935,10 +1082,6 @@ justify-content: center; }
 
 
 
-/*  seccion contacto */
-
-.bloque_dual { background: linear-gradient(to bottom, #05A451 41%, #41ADCE 41% );
-} 
 
 /* .cuadro_dual {
 background-image: url("../img_plan/back_dual.webp"); 
@@ -992,6 +1135,48 @@ border-radius: 10px;
 /* Medium devices (tablets)  */
 @media (min-width: 541px) and (max-width: 641px)  {
 
+  .cuadro_dual {
+    background-color: #05A451;
+  }    
+
+  .img_direccion{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    img{
+      width: 27% !important;
+    }
+  }
+
+  .texto_direccion{
+    text-align: center;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+    h2{
+      width: 100%;
+    }
+  }
+
+
+
+  .titulo_header{
+    width: 100%;
+
+    img{
+      top: 40px;
+      left: 41%;
+      width: 100px;
+    }
+  }
+  .texto_header{
+    width: 100%;
+    ul{
+      font-size: 20px;
+    }
+  }
+
+
+
   .homerr {  background-image: url("../img_plan/Plan_Vacacional_tablet.webp"); margin-top: -30px; }
   nav.navbar {display: none; }
   
@@ -1036,7 +1221,7 @@ border-radius: 10px;
 
   
 .back_magenta {
-background: linear-gradient(to bottom, #ffffff 50%, #BF0685 50% );
+ background-color: #BF0685;
 }
 
 
@@ -1137,7 +1322,7 @@ margin-bottom: 7px;
 
 
 .back_amarillo {
-background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
+background: linear-gradient(to bottom, #BF0685 42%, #FFD200 42% );
 }
 
 
@@ -1195,10 +1380,6 @@ justify-content: center; }
 
 
 
-/*  seccion contacto */
-
-.bloque_dual { background: linear-gradient(to bottom, #05A451 44%, #41ADCE 44% );
-} 
 
 /* .cuadro_dual {
 background-image: url("../img_plan/back_dual.webp"); 
@@ -1251,6 +1432,40 @@ border-radius: 10px;
 /* Medium devices (tablets)  */
 @media (min-width: 641px) and (max-width: 773px)  {
 
+  .cuadro_dual {
+    background-color: #05A451;
+  }    
+
+  .img_direccion{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    img{
+      width: 27% !important;
+    }
+  }
+
+  .texto_direccion{
+    text-align: center;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+    h2{
+      width: 100%;
+    }
+  }
+
+
+
+  .titulo_header{
+    width: 100%;
+
+    img{
+      top: 40px;
+      left: 41%;
+      width: 100px;
+    }
+  }
+
   .homerr {  background-image: url("../img_plan/Plan_Vacacional_tablet.webp"); margin-top: -30px; }
   nav.navbar {display: none; }
   
@@ -1295,7 +1510,7 @@ border-radius: 10px;
 
   
 .back_magenta {
-background: linear-gradient(to bottom, #ffffff 50%, #BF0685 50% );
+  background-color: #BF0685;
 }
 
 
@@ -1396,7 +1611,7 @@ margin-bottom: 7px;
 
 
 .back_amarillo {
-background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
+background: linear-gradient(to bottom, #BF0685 42%, #FFD200 42% );
 }
 
 
@@ -1453,11 +1668,7 @@ justify-content: center; }
 
 
 
-
-/*  seccion contacto */
-
-.bloque_dual { background: linear-gradient(to bottom, #05A451 44%, #41ADCE 44% );
-} 
+ 
 
 /* .cuadro_dual {
 background-image: url("../img_plan/back_dual.webp"); 
@@ -1523,6 +1734,37 @@ border-radius: 10px;
 
 /* Medium devices (tablets)  */
 @media (min-width: 773px) and (max-width: 991px)  {
+  .cuadro_dual {
+    background-color: #05A451;
+  }    
+
+  .img_direccion{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    img{
+      width: 27% !important;
+    }
+  }
+
+  .texto_direccion{
+    text-align: center;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+    h2{
+      width: 100%;
+    }
+  }
+
+  .titulo_header{
+    width: 100%;
+
+    img{
+      top: 40px;
+      left: 41%;
+      width: 100px;
+    }
+  }
 
   .homerr {  background-image: url("../img_plan/Plan_Vacacional_tablet.webp"); margin-top: -30px; }
   nav.navbar {display: none; }
@@ -1568,7 +1810,7 @@ border-radius: 10px;
 
   
 .back_magenta {
-background: linear-gradient(to bottom, #ffffff 50%, #BF0685 50% );
+  background-color: #BF0685;
 }
 
 
@@ -1669,7 +1911,7 @@ margin-bottom: 7px;
 
 
 .back_amarillo {
-background: linear-gradient(to bottom, #FFD200 53%, #ffffff 53% );
+background: linear-gradient(to bottom, #BF0685 42%, #FFD200 42% );
 }
 
 
@@ -1737,8 +1979,7 @@ justify-content: center; }
 
 /*  seccion contacto */
 
-.bloque_dual { background: linear-gradient(to bottom, #05A451 44%, #41ADCE 44% );
-} 
+ 
 
 /* .cuadro_dual {
 background-image: url("../img_plan/back_dual.webp"); 
@@ -1815,6 +2056,25 @@ border-radius: 10px;
 /* Large tablets   */
 @media (min-width: 991px) and (max-width: 1200px)  { 
 
+  .titulo_header{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
+
+    img{
+      top:170px;
+      left: 100px;
+    }
+  }
+  .texto_header{
+    width: 100% !important;
+    height: 100%;
+    justify-content: start;
+    padding-top: 100px;
+
+  }
+
 
   .homerr {  background-image: url("../img_plan/Plan_Vacacional_lar_tablet.webp"); margin-top: -30px; }
   nav.navbar {display: none; }
@@ -1877,7 +2137,7 @@ justify-content: center;
 
 
 .cuadro_bi_a {
-background-image: url("../img_plan/back_cuadros_sup.webp"); /* The image used */  
+
 
 height: 100%; /* You must set a specified height */
 width: 100%;
@@ -2002,6 +2262,7 @@ width: 100%;
 background-position: center; /* Center the image */
 background-repeat: no-repeat; /* Do not repeat the image */
 background-size: cover; /* Resize the background image to cover the entire container */
+
 }
 
 
@@ -2067,13 +2328,11 @@ justify-content: left; }
 /* .bloque_dual {} */
 
 .cuadro_dual {
-background-image: url("../img_plan/back_dual.webp"); /* The image used */
 
-height: 476px; /* You must set a specified height */
+background-color: #05A451;
+
 width: 100%;
-background-position: center; /* Center the image */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover; /* Resize the background image to cover the entire container */
+
 }
 
 .address {align-items: left; margin-top: -14px; justify-content: left;}
@@ -2124,7 +2383,11 @@ border-radius: 10px;
 /* extra Large tablets   */
 @media (min-width: 1201px) and (max-width: 1442px)  {
 
-
+  .titulo_header{
+    img{
+      left: 60px !important;
+    }
+  }
 
 
   
@@ -2238,7 +2501,7 @@ margin-bottom: 14px;
 
 
 .cuadro_bi_a {
-background-image: url("../img_plan/back_cuadros_sup.webp"); /* The image used */  
+
 
 height: 100%; /* You must set a specified height */
 width: 100%;
@@ -2384,9 +2647,9 @@ justify-content: left; }
 /* .bloque_dual {} */
 
 .cuadro_dual {
-background-image: url("../img_plan/back_dual.webp"); /* The image used */
+  background-color: #05A451;
 
-height: 476px; /* You must set a specified height */
+
 width: 100%;
 background-position: center; /* Center the image */
 background-repeat: no-repeat; /* Do not repeat the image */
@@ -2430,7 +2693,7 @@ border-radius: 10px;
 /* Large devices (desktops, 1442px and up)  */
 @media (min-width: 1442px) { 
 
-
+  
 
 
 
@@ -2532,7 +2795,7 @@ margin-bottom: 14px;
 
 
 .cuadro_bi_a {
-background-image: url("../img_plan/back_cuadros_sup.webp"); /* The image used */  
+background-color: #BF0685;
 
 height: 100%; /* You must set a specified height */
 width: 100%;
@@ -2545,6 +2808,7 @@ background-size: cover; /* Resize the background image to cover the entire conta
 
 .cuadro_bi_b {
 background-image: url("../img_plan/back_cuadros_bajo.webp"); /* The image used */  
+
 
 height: 100%; /* You must set a specified height */
 width: 100%;
@@ -2662,9 +2926,9 @@ justify-content: left; }
 /* .bloque_dual {} */
 
 .cuadro_dual {
-background-image: url("../img_plan/back_dual.webp"); /* The image used */
+background-color: #05A451;
 
-height: 476px; /* You must set a specified height */
+
 width: 100%;
 background-position: center; /* Center the image */
 background-repeat: no-repeat; /* Do not repeat the image */
@@ -2700,15 +2964,25 @@ border-radius: 10px;
 
 
 
-/* X-Large devices (large desktops, 1200px and up)  
-@media (min-width: 1200px) { }
-@media (min-width: 1400px) { }  */
-
-
 
 
 
 @media (min-height: 1px) and (max-height: 663px)  { 
+
+  .back_amarillo{
+    background: linear-gradient(to bottom, #BF0685 53%, #FFD200 53% );
+  }
+
+  .titulo_header{
+    img{
+      width: 50px;
+    }
+  }
+  .texto_header{
+    margin-top: 130px;
+  }
+
+
   .bajemosle{
     margin-top: 20px; 
   }
